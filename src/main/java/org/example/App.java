@@ -6,10 +6,10 @@ package org.example;
 public class App {
     public static void main(String[] args) {
 
-        int LannistersFootSoldier = 20;
+        final int LannistersFootSoldier = 20;
         System.out.println("Количество пехотинцев у Ланнистеров (переменная LannistersFootSoldier) :" + LannistersFootSoldier);
 
-        int SarumanOrcs = 40;
+        final int SarumanOrcs = 40;
         System.out.println("Количество орков в войске Сарумана (переменная SarumanOrcs) :" + SarumanOrcs);
 
         int SarumansAndLannistersUnionTotalNumber = LannistersFootSoldier + SarumanOrcs;
